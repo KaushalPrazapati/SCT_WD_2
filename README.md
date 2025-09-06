@@ -34,10 +34,13 @@ A sleek, modern stopwatch web application with lap time functionality.
 
 ## File Structure
 TimeFlow/
-├── index.html # Main HTML file
-├── style.css # CSS styles
-├── script.js # JavaScript functionality
-└── README.md # Project documentation
+├── index.html
+
+├── style.css
+
+├── script.js
+
+└── README.md
 
 
 ## Browser Compatibility
@@ -51,3 +54,4 @@ This application works on all modern browsers including:
 ## Developer
 
 Created as a modern stopwatch application with a unique design.
+
