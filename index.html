@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeFlow | Modern Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="logo">Time<span>Flow</span></h1>
+            <p class="tagline">Precision time tracking</p>
+        </div>
+
+        <div class="stopwatch-card">
+            <div class="time-display">
+                <div class="time-main">
+                    <span id="minutes">00</span>:<span id="seconds">00</span>
+                </div>
+                <div class="time-millis">
+                    .<span id="milliseconds">00</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="startBtn" class="btn start">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="pauseBtn" class="btn pause" disabled>
+                    <i class="fas fa-pause"></i>
+                </button>
+                <button id="resetBtn" class="btn reset">
+                    <i class="fas fa-undo"></i>
+                </button>
+                <button id="lapBtn" class="btn lap">
+                    <i class="fas fa-flag"></i>
+                </button>
+            </div>
+
+            <div class="laps-container">
+                <h3 class="laps-title">Lap Times</h3>
+                <div id="lapsList" class="laps-list">
+                    <!-- Lap times will be added here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Made with <i class="fas fa-heart"></i> by Kaushal</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
